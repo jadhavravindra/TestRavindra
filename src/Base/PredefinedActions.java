@@ -155,6 +155,9 @@ public class PredefinedActions {
 		}
 	}
 	
+	public static void m1() {
+		System.out.println("test");
+	}
 	
 	
 }

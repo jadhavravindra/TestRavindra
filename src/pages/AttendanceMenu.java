@@ -10,6 +10,8 @@ public class AttendanceMenu extends PredefinedActions {
 	WebElement attendanceMenuBtn;
 	LoginPage loginPage ;
 	
+	
+	
 	public void ClickOnAttandanceMenu() {
 		
 		WebElement attendanceMenuBtn = LoginPage.getElement("xpath", "//a/span[text()='Attendance']", true);
